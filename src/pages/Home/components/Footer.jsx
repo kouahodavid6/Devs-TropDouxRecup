@@ -1,5 +1,4 @@
 import { Mail, MapPin, Facebook, Instagram, Twitter } from 'lucide-react';
-import ButtonStore from '../../components/ButtonStore';
 
 const Footer = () => {
     return (
@@ -122,12 +121,12 @@ const Footer = () => {
                         </div>
 
                         <div className="flex gap-3">
-                            <ButtonStore 
+                            <button
                                 store="App Store"
                                 url="https://apps.apple.com/app/id389801252"
                                 className="text-xs md:text-lg px-10"
                             />
-                            <ButtonStore 
+                            <button
                                 store="Google Play"
                                 url="https://play.google.com/store/apps/details?id=com.instagram.android"
                                 className="text-xs md:text-lg px-10"
