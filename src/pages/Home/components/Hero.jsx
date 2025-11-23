@@ -19,12 +19,12 @@ const Hero = () => {
                     <span className="text-[#ffa700] text-sm font-bold tracking-widest uppercase">Équipe de Développement</span>
                 </div>
 
-                <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+                <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
                     Les Cerveaux Derrière
                     <span className="block text-[#ffa700] mt-2">L'Application</span>
                 </h1>
 
-                <p className="text-xl md:text-2xl text-gray-300 mb-4 max-w-3xl mx-auto">
+                <p className="text-lg md:text-xl text-gray-300 mb-4 max-w-3xl mx-auto">
                     Nous Avons Construit <span className="text-[#ffa700] font-semibold">Trop Doux Récup</span>
                 </p>
 
