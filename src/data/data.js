@@ -3,7 +3,7 @@ const developpeurs = [
         name: "Judicael Cakpo",
         role: "Développeur Front-End Mobile",
         bio: "Passionné par la création d'expériences mobiles fluides avec React Native. Transforme les exigences complexes en applications intuitives et performantes.",
-        technologies: ["React Native", "Expo", "REST API"],
+        technologies: ["React Native", "Tailwind CSS", "Expo", "REST API"],
         linkedin: "#",
         whatsapp: "https://wa.me/+2250564624366",
         image: "download (1).jpeg"
@@ -21,7 +21,7 @@ const developpeurs = [
         name: "David Kouaho",
         role: "Développeur Front-End Web",
         bio: "Crée des interfaces web magnifiques et réactives avec les frameworks modernes. Axé sur l'expérience utilisateur et les implémentations pixel-perfect.",
-        technologies: ["React.js", "Tailwind CSS", "JavaScript"],
+        technologies: ["React.js", "Tailwind CSS", "REST API"],
         linkedin: "https://www.linkedin.com/in/david-kouaho?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         whatsapp: "https://wa.me/+2250171136261",
         image: "download (3).jpeg"
