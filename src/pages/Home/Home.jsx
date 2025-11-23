@@ -1,4 +1,5 @@
 import Hero from "./components/Hero";
+import Equipe from "./components/Equipe";
 import Footer from "./components/Footer";
 
 const Home = () => {
@@ -10,7 +11,9 @@ const Home = () => {
             </div>
 
             {/* Animations au scroll pour les autres sections */}
-
+            <div data-aos="fade-up" data-aos-duration="500">
+                <Equipe />
+            </div>
             <Footer />
         </>
     );
