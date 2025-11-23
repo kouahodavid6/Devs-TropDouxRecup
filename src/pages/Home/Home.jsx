@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import Equipe from "./components/Equipe";
+import CollaborationSynergie from "./components/CollaborationSynergie";
 import Footer from "./components/Footer";
 
 const Home = () => {
@@ -13,6 +14,9 @@ const Home = () => {
             {/* Animations au scroll pour les autres sections */}
             <div data-aos="fade-up" data-aos-duration="500">
                 <Equipe />
+            </div>
+            <div data-aos="fade-up" data-aos-duration="500">
+                <CollaborationSynergie />
             </div>
             <Footer />
         </>

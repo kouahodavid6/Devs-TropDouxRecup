@@ -1,138 +1,35 @@
-import { Mail, MapPin, Facebook, Instagram, Twitter } from 'lucide-react';
+import { Code2 } from 'lucide-react';
 
 const Footer = () => {
     return (
-        <footer className="bg-black text-white py-16 border-t-4 border-[#ffa700]">
-            <div className="container mx-auto px-4">
-                <div className="grid md:grid-cols-4 gap-12 mb-12">
-                    <div>
-                        <div className="flex items-center justify-content-center gap-4 mb-4">
-                            <img 
-                                src="/LogoTropDouxRecup.jpg" 
-                                alt="Logo Trop Doux Recup"
-                                className="relative w-20 h-20 rounded-2xl object-cover transform group-hover:scale-105 transition-transform duration-500 shadow-2xl"
-                            />
-                            <h1 className='text-xl font-bold text-[#ffa700]'>Trop Doux Recup</h1>
+        <footer className="bg-gray-900 text-white py-12 px-6">
+            <div className="max-w-7xl mx-auto">
+                <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+                    <div className="flex items-center gap-3">
+                        <div className="w-10 h-10 bg-[#ffa700] rounded-lg flex items-center justify-center">
+                            <Code2 className="w-6 h-6 text-black" />
                         </div>
-                        <p className="text-gray-400 leading-relaxed mb-6">
-                            L'application anti-gaspillage qui connecte restaurants et clients pour des repas pas chers.
+                        <div>
+                            <div className="font-bold text-lg">Devs Équipe</div>
+                            <div className="text-sm text-gray-400">Trop Doux Récup</div>
+                        </div>
+                    </div>
+
+                    <div className="text-center md:text-right">
+                        <p className="text-gray-400 text-sm">
+                            &copy; {new Date().getFullYear()} Équipe de Développement Trop Doux Récup
                         </p>
-                        <div className="flex gap-4">
-                            <a href="#" className="bg-[#ffa700] p-3 rounded-full hover:bg-[#ff9500] transition-colors duration-300">
-                                <Facebook className="w-5 h-5 text-black" />
-                            </a>
-                            <a href="#" className="bg-[#ffa700] p-3 rounded-full hover:bg-[#ff9500] transition-colors duration-300">
-                                <Instagram className="w-5 h-5 text-black" />
-                            </a>
-                            <a href="#" className="bg-[#ffa700] p-3 rounded-full hover:bg-[#ff9500] transition-colors duration-300">
-                                <Twitter className="w-5 h-5 text-black" />
-                            </a>
-                        </div>
-                    </div>
-
-                    <div>
-                        <h4 className="text-lg font-bold text-[#ffa700] mb-6">
-                            Navigation
-                        </h4>
-                        <ul className="space-y-3">
-                            <li>
-                                <a href="#" className="text-gray-400 hover:text-[#ffa700] transition-colors duration-300">
-                                    Accueil
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" className="text-gray-400 hover:text-[#ffa700] transition-colors duration-300">
-                                    Comment ça marche
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" className="text-gray-400 hover:text-[#ffa700] transition-colors duration-300">
-                                    Nous rejoindre
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" className="text-gray-400 hover:text-[#ffa700] transition-colors duration-300">
-                                    Impact
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h4 className="text-lg font-bold text-[#ffa700] mb-6">
-                            Légal
-                        </h4>
-                        <ul className="space-y-3">
-                            <li>
-                                <a href="#" className="text-gray-400 hover:text-[#ffa700] transition-colors duration-300">
-                                    Mentions légales
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" className="text-gray-400 hover:text-[#ffa700] transition-colors duration-300">
-                                    Politique de confidentialité
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" className="text-gray-400 hover:text-[#ffa700] transition-colors duration-300">
-                                    CGU
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" className="text-gray-400 hover:text-[#ffa700] transition-colors duration-300">
-                                    CGV
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h4 className="text-lg font-bold text-[#ffa700] mb-6">
-                            Contact
-                        </h4>
-                        <ul className="space-y-4">
-                            <li className="flex items-start gap-3">
-                                <Mail className="w-5 h-5 text-[#ffa700] flex-shrink-0 mt-1" />
-                                <span className="text-gray-400">tropdouxrecup@gmail.com</span>
-                            </li>
-                            <li className="flex items-start gap-3">
-                                <MapPin className="w-5 h-5 text-[#ffa700] flex-shrink-0 mt-1" />
-                                <span className="text-gray-400">Abidjan, Côte d'Ivoire</span>
-                            </li>
-                        </ul>
+                        <p className="text-gray-500 text-xs mt-1">
+                            Construit avec passion et expertise
+                        </p>
                     </div>
                 </div>
 
-                <div className="border-t border-gray-800 pt-8">
-                    <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-                        <div>
-                            <p className='text-gray-400 text-center md:text-left'>
-                                Dev par :{' '}
-                                <span 
-                                    className='underline hover:text-[#ffa700] cursor-pointer'
-                                    onClick={() => window.open('', '_blank')}
-                                >
-                                    JEED-TECH
-                                </span>
-                            </p>
-                            <p className="text-gray-400 text-center md:text-left">
-                                © 2024 Trop Doux Recup. Tous droits réservés.
-                            </p>
-                        </div>
-
-                        <div className="flex gap-3">
-                            <button
-                                store="App Store"
-                                url="https://apps.apple.com/app/id389801252"
-                                className="text-xs md:text-lg px-10"
-                            />
-                            <button
-                                store="Google Play"
-                                url="https://play.google.com/store/apps/details?id=com.instagram.android"
-                                className="text-xs md:text-lg px-10"
-                            />
-                        </div>
-                    </div>
+                <div className="mt-8 pt-8 border-t border-gray-800 text-center">
+                    <p className="text-gray-400 text-sm">
+                        Vous recherchez une équipe de développement talentueuse ?{' '}
+                        <span className="text-[#ffa700] font-semibold">Nous sommes disponibles pour de nouveaux projets.</span>
+                    </p>
                 </div>
             </div>
         </footer>
