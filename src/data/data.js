@@ -4,7 +4,7 @@ const developpeurs = [
         role: "Développeur Front-End Mobile",
         bio: "Passionné par la création d'expériences mobiles fluides avec React Native.",
         technologies: ["React Native", "Expo", "Uniwind", "Tanstack Query", "Zustand" ],
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/judicael-cakpo-6907b32a0",
         whatsapp: "https://wa.me/+2250564624366",
         image: "download (1).jpeg"
     },
