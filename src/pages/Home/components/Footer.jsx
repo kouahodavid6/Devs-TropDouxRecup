@@ -11,13 +11,13 @@ const Footer = () => {
                         </div>
                         <div>
                             <div className="font-bold text-lg">Devs Équipe</div>
-                            <div className="text-sm text-gray-400">Trop Doux Récup</div>
+                            <div className="text-sm text-gray-400">TropDouxRécup</div>
                         </div>
                     </div>
 
                     <div className="text-center md:text-right">
                         <p className="text-gray-400 text-sm">
-                            &copy; {new Date().getFullYear()} Équipe de Développement Trop Doux Récup
+                            &copy; {new Date().getFullYear()} Équipe de Développement TropDouxRécup
                         </p>
                         <p className="text-gray-500 text-xs mt-1">
                             Construit avec passion et expertise

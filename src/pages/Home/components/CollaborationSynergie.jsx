@@ -59,7 +59,7 @@ const CollaborationSynergie = () => {
                     <div className="flex flex-col md:flex-row items-center gap-8">
                         <div className="flex-1">
                         <h3 className="text-2xl md:text-3xl font-bold mb-4">
-                            Le Résultat : <span className="text-[#ff7a00]">Trop Doux Récup</span>
+                            Le Résultat : <span className="text-[#ff7a00]">TropDouxRécup</span>
                         </h3>
                         <p className="text-gray-300 leading-relaxed">
                             En combinant l'expertise mobile, la robustesse backend et l'excellence du design web, nous avons créé une application complète

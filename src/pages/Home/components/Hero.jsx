@@ -25,7 +25,7 @@ const Hero = () => {
                 </h1>
 
                 <p className="text-lg md:text-xl text-gray-300 mb-4 max-w-3xl mx-auto">
-                    Nous Avons Construit <span className="text-[#ff7a00] font-semibold">Trop Doux Récup</span>
+                    Nous Avons Construit <span className="text-[#ff7a00] font-semibold">TropDouxRécup</span>
                 </p>
 
                 <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto">

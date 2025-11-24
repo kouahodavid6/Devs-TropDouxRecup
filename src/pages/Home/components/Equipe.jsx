@@ -16,7 +16,7 @@ const Equipe = () => {
                     </h2>
 
                     <p className="text-gray-600 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
-                        Trois développeurs spécialisés, une vision unifiée. Rencontrez les experts qui ont donné vie à Trop Doux Récup.
+                        Trois développeurs spécialisés, une vision unifiée. Rencontrez les experts qui ont donné vie à TropDouxRécup.
                     </p>
                 </div>
 
