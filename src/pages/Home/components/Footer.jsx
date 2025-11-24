@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="max-w-7xl mx-auto">
                 <div className="flex flex-col md:flex-row items-center justify-between gap-6">
                     <div className="flex items-center gap-3">
-                        <div className="w-10 h-10 bg-[#ffa700] rounded-lg flex items-center justify-center">
+                        <div className="w-10 h-10 bg-[#ff7a00] rounded-lg flex items-center justify-center">
                             <Code2 className="w-6 h-6 text-black" />
                         </div>
                         <div>
@@ -28,7 +28,7 @@ const Footer = () => {
                 <div className="mt-8 pt-8 border-t border-gray-800 text-center">
                     <p className="text-gray-400 text-sm">
                         Vous recherchez une équipe de développement talentueuse ?{' '}
-                        <span className="text-[#ffa700] font-semibold">Nous sommes disponibles pour de nouveaux projets.</span>
+                        <span className="text-[#ff7a00] font-semibold">Nous sommes disponibles pour de nouveaux projets.</span>
                     </p>
                 </div>
             </div>
