@@ -43,7 +43,7 @@ const Equipe = () => {
                                     {dev.name}
                                 </h3>
 
-                                <div className="inline-block bg-[#ff7a00] text-black px-3 sm:px-4 py-1 rounded-full text-xs sm:text-sm font-bold mb-3 sm:mb-4">
+                                <div className="inline-block bg-[#ff7a00] text-white px-3 sm:px-4 py-1 rounded-full text-xs sm:text-sm font-bold mb-3 sm:mb-4">
                                     {dev.role}
                                 </div>
 
