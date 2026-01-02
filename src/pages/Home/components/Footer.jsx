@@ -10,7 +10,7 @@ const Footer = () => {
                             <Code2 className="w-6 h-6 text-black" />
                         </div>
                         <div>
-                            <div className="font-bold text-lg">Devs Équipe</div>
+                            <div className="font-bold text-lg">Équipe Dév</div>
                             <div className="text-sm text-gray-400">TropDouxRécup</div>
                         </div>
                     </div>

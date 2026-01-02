@@ -20,12 +20,12 @@ const Hero = () => {
                 </div>
 
                 <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-                    Les Cerveaux Derrière
+                    Les Développeurs Derrière
                     <span className="block text-[#ff7a00] mt-2">L'Application</span>
                 </h1>
 
-                <p className="text-lg md:text-xl text-gray-300 mb-4 max-w-3xl mx-auto">
-                    Nous Avons Construit <span className="text-[#ff7a00] font-semibold">TropDouxRécup</span>
+                <p className="text-lg md:text-xl text-[#ff7a00] font-semibold mb-4 max-w-3xl mx-auto">
+                    TropDouxRécup
                 </p>
 
                 <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto">
