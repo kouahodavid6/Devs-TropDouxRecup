@@ -28,7 +28,12 @@ const Footer = () => {
                 <div className="mt-8 pt-8 border-t border-gray-800 text-center">
                     <p className="text-gray-400 text-sm">
                         Vous recherchez une équipe de développement talentueuse ?{' '}
-                        <span className="text-[#ff7a00] font-semibold">Nous sommes disponibles pour de nouveaux projets.</span>
+                        <span 
+                            className="underline text-[#ff7a00]/80 hover:text-[#ff7a00] cursor-pointer"
+                            onClick={() => window.open('https://www.jeed-tech.com/', '_blank')}
+                        >
+                            Nous sommes disponibles pour de nouveaux projets.
+                        </span>
                     </p>
                 </div>
             </div>

@@ -1,5 +1,6 @@
 import { developpeurs } from "../../../data/data";
-import { Linkedin, MessageCircle } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
+import { LuLinkedin } from "react-icons/lu";
 
 const Equipe = () => {
     return(
@@ -32,7 +33,7 @@ const Equipe = () => {
                                 <img 
                                     src={dev.image}
                                     alt={dev.name}
-                                    className="w-full h-full object-cover group-hover:scale-105 sm:group-hover:scale-110 transition-transform duration-500"
+                                    className="w-full h-full object-cover object-top group-hover:scale-105 sm:group-hover:scale-110 transition-transform duration-500"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-60"></div>
                             </div>
@@ -75,7 +76,7 @@ const Equipe = () => {
                                         className="flex-1 flex items-center justify-center gap-2 bg-black text-white px-3 sm:px-4 py-2 rounded-lg hover:bg-[#ff7a00] hover:text-black transition-colors duration-300 font-semibold text-xs sm:text-sm min-h-[44px]"
                                         aria-label={`LinkedIn de ${dev.name}`}
                                     >
-                                        <Linkedin className="w-3.5 h-3.5 sm:w-4 sm:h-4 flex-shrink-0" />
+                                        <LuLinkedin className="w-3.5 h-3.5 sm:w-4 sm:h-4 flex-shrink-0" />
                                         LinkedIn
                                     </a>
                                     <a
@@ -83,7 +84,7 @@ const Equipe = () => {
                                         className="flex-1 flex items-center justify-center gap-2 bg-black text-white px-3 sm:px-4 py-2 rounded-lg hover:bg-[#ff7a00] hover:text-black transition-colors duration-300 font-semibold text-xs sm:text-sm min-h-[44px]"
                                         aria-label={`WhatsApp de ${dev.name}`}
                                     >
-                                        <MessageCircle className="w-3.5 h-3.5 sm:w-4 sm:h-4 flex-shrink-0" />
+                                        <FaWhatsapp className="w-3.5 h-3.5 sm:w-4 sm:h-4 flex-shrink-0" />
                                         WhatsApp
                                     </a>
                                 </div>

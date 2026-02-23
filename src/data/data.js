@@ -4,18 +4,18 @@ const developpeurs = [
         role: "Développeur Front-End Mobile",
         bio: "Passionné par la création d'expériences mobiles fluides avec React Native.",
         technologies: ["React Native", "Expo", "Uniwind", "Tanstack Query", "Zustand" ],
-        linkedin: "https://www.linkedin.com/in/judicael-cakpo-6907b32a0",
+        linkedin: "https://www.linkedin.com/in/judicael-cakpo-6907b32a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         whatsapp: "https://wa.me/+2250564624366",
-        image: "download (1).jpeg"
+        image: "Judicael.jpg"
     },
     {
         name: "Emmanuel Bamidélé",
         role: "Développeur Back-End",
         bio: "Spécialisé dans la conception d'API et l'optimisation des bases de données.",
         technologies: ["Laravel", "MySQL", "RESTful APIs"],
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/emmanuel-bamidele-b63a49274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         whatsapp: "https://wa.me/+2250140022693",
-        image: "download (2).jpeg"
+        image: "Emmanuel.jpg"
     },
     {
         name: "David Kouaho",
@@ -24,7 +24,7 @@ const developpeurs = [
         technologies: ["React.js", "Tailwind CSS","Tanstack Query", "Zustand"],
         linkedin: "https://www.linkedin.com/in/david-kouaho?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         whatsapp: "https://wa.me/+2250171136261",
-        image: "download (3).jpeg"
+        image: "David.jpg"
     }
 ];
 
