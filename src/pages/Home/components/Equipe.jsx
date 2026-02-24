@@ -53,7 +53,7 @@ const Equipe = () => {
                                 </p>
 
                                 {/* Technologies */}
-                                <div className="mb-4 sm:mb-6">
+                                {/* <div className="mb-4 sm:mb-6">
                                     <h4 className="text-xs font-bold text-gray-400 uppercase tracking-wide mb-2 sm:mb-3">
                                         Technologies
                                     </h4>
@@ -67,7 +67,7 @@ const Equipe = () => {
                                         </span>
                                         ))}
                                     </div>
-                                </div>
+                                </div> */}
 
                                 {/* Boutons de contact */}
                                 <div className="flex flex-col xs:flex-row gap-3 sm:gap-4 pt-4 border-t border-gray-100">
